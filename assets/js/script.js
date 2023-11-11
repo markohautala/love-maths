@@ -138,6 +138,7 @@ function displayMultiplyQuestion(operand1, operand2) {
 }
 
 function displayDivisionQuestion(operand1, operand2) {
+    // Makes sure that the division game is working and that operand1 is always divideable by operand 2 to become a integer
     operand1 = operand1 * operand2
     
     document.getElementById("operand1").textContent = operand1;
